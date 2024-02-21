@@ -10,7 +10,7 @@ export default function MyCard() {
   return (
     <>
       <div
-        className="flex flex-col w-[50vw] h-[282px] justify-between max-[1100px]:h-[208px] overflow-x-hidden
+        className="flex flex-col w-[50vw] h-[282px] justify-between max-[1100px]:h-[208px] 
       max-[600px]:w-[550px] max-[600px]:ml-5"
       >
         <div className="w-full inline-flex justify-between h-fit ">
@@ -24,9 +24,10 @@ export default function MyCard() {
             See All
           </a>
         </div>
-        <div className="w-full inline-flex justify-between h-[83%] max-[1100px]:h-[208px]">
+        <div className="w-full inline-flex justify-between h-[83%] max-[1100px]:h-[208px] overflow-x-hidden">
           <div
-            className="card flex flex-col justify-around items-center w-[47%] h-full bg-gradient-to-r from-blue-600 to-blue-700 
+            className="card flex flex-col justify-around items-center 
+          w-[50%] h-full bg-gradient-to-r from-blue-600 to-blue-700 
           rounded-[20px]"
           >
             <div className="first h-[51px] w-[80%] inline-flex justify-between items-center">
