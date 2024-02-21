@@ -23,7 +23,7 @@ export default function Home() {
         className="ml-[17vw] flex flex-col max-[600px]:m-0 
       "
       >
-        <div className="inline-flex max-[1100px]:justify-around max-[600px]:flex max-[600px]:flex-col">
+        <div className="inline-flex max-[1100px]:justify-around max-[600px]:flex max-[600px]:flex-col overflow-x-hidden">
           <MyCard></MyCard>
           <RecentTransaction className="ml-10 max-[600px]:ml-5"></RecentTransaction>
         </div>

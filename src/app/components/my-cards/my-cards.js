@@ -10,7 +10,7 @@ export default function MyCard() {
   return (
     <>
       <div
-        className="flex flex-col w-[50vw] h-[282px] justify-between max-[1100px]:h-[208px]
+        className="flex flex-col w-[50vw] h-[282px] justify-between max-[1100px]:h-[208px] overflow-x-hidden
       max-[600px]:w-[550px] max-[600px]:ml-5"
       >
         <div className="w-full inline-flex justify-between h-fit ">
@@ -25,7 +25,10 @@ export default function MyCard() {
           </a>
         </div>
         <div className="w-full inline-flex justify-between h-[83%] max-[1100px]:h-[208px]">
-          <div className="card flex flex-col justify-around items-center w-[47%] h-full bg-gradient-to-r from-blue-600 to-blue-700 rounded-[20px]">
+          <div
+            className="card flex flex-col justify-around items-center w-[47%] h-full bg-gradient-to-r from-blue-600 to-blue-700 
+          rounded-[20px]"
+          >
             <div className="first h-[51px] w-[80%] inline-flex justify-between items-center">
               <div className="flex flex-col text-white text-[20px]">
                 <p className="max-[1100px]:text-[11px]">Balance</p>
@@ -60,7 +63,7 @@ export default function MyCard() {
               ></Image>
             </div>
           </div>
-          <div className="card flex flex-col justify-evenly items-center w-[47%] h-full max-[600px]:hidden">
+          <div className="card flex flex-col justify-evenly items-center w-[47%] h-full">
             <div className="first h-[51px] w-[80%] inline-flex justify-between items-center">
               <div className="flex flex-col text-black text-[20px]">
                 <p className="max-[1100px]:text-[11px]">Balance</p>
