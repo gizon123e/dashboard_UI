@@ -5,7 +5,6 @@ import { CiSettings } from "react-icons/ci";
 import React from "react";
 
 export default function SideNavbar(page) {
-  console.log("dropwdown nya: ", page.dropdown);
   return (
     <>
       <div

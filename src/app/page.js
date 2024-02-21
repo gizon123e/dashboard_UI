@@ -11,7 +11,7 @@ import { IoMenuSharp } from "react-icons/io5";
 import { useState } from "react";
 
 export default function Home() {
-  const [dropdown, setDropDown] = useState(false);
+  const [dropdown, setDropDown] = useState(true);
   return (
     <>
       <TopNavbar
@@ -27,11 +27,11 @@ export default function Home() {
           <MyCard></MyCard>
           <RecentTransaction className="ml-10 max-[600px]:ml-5"></RecentTransaction>
         </div>
-        <div className="mt-5 inline-flex max-[600px]:flex max-[600px]:flex-col max-[600px]:items-center w-screen">
+        <div className="mt-5 inline-flex max-[600px]:flex max-[600px]:flex-col max-[600px]:items-center max-[600px]:w-screen">
           <WeeklyActivity></WeeklyActivity>
           <ExpenseStatistic className="ml-10 max-[600px]:m-0"></ExpenseStatistic>
         </div>
-        <div class="mt-5 inline-flex w-screen max-[600px]:flex max-[600px]:flex-col max-[600px]:items-center">
+        <div class="mt-5 inline-flex max-[600px]:flex max-[600px]:flex-col max-[600px]:items-center max-[600px]:w-screen">
           <QuickTrasnfer></QuickTrasnfer>
           <BalanceHistory className="ml-10 max-[600px]:ml-0 max-[600px]:mt-5"></BalanceHistory>
         </div>

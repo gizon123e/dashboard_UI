@@ -6,7 +6,6 @@ import { CiSearch, CiSettings } from "react-icons/ci";
 import { IoMdNotificationsOutline } from "react-icons/io";
 
 export default function TopNavbar({ icon: Icon, onClick }) {
-  console.log(Icon);
   return (
     <>
       <div className="w-full inline-flex h-[100px] justify-evenly items-center">
