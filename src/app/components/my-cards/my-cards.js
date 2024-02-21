@@ -24,7 +24,7 @@ export default function MyCard() {
             See All
           </a>
         </div>
-        <div className="w-full inline-flex justify-between h-[83%] max-[1100px]:h-[208px] max-[600px]:overflow-hidden">
+        <div className="w-full inline-flex justify-between h-[83%] max-[1100px]:h-[208px]">
           <div className="card flex flex-col justify-around items-center w-[47%] h-full bg-gradient-to-r from-blue-600 to-blue-700 rounded-[20px]">
             <div className="first h-[51px] w-[80%] inline-flex justify-between items-center">
               <div className="flex flex-col text-white text-[20px]">
@@ -60,7 +60,7 @@ export default function MyCard() {
               ></Image>
             </div>
           </div>
-          <div className="card flex flex-col justify-evenly items-center w-[47%] h-full">
+          <div className="card flex flex-col justify-evenly items-center w-[47%] h-full max-[600px]:hidden">
             <div className="first h-[51px] w-[80%] inline-flex justify-between items-center">
               <div className="flex flex-col text-black text-[20px]">
                 <p className="max-[1100px]:text-[11px]">Balance</p>
