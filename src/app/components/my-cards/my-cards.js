@@ -11,7 +11,7 @@ export default function MyCard() {
     <>
       <div
         className="flex flex-col w-[50vw] h-[282px] justify-between max-[1100px]:h-[208px]
-      max-[600px]:w-[550px] max-[600px]:overflow-hidden max-[600px]:ml-5"
+      max-[600px]:w-[550px] max-[600px]:ml-5"
       >
         <div className="w-full inline-flex justify-between h-fit ">
           <h1 className="font-semibold mb-2 text-[18px] max-[1100px]:text-[15px]">
@@ -24,7 +24,7 @@ export default function MyCard() {
             See All
           </a>
         </div>
-        <div className="w-full inline-flex justify-between h-[83%] max-[1100px]:h-[208px]">
+        <div className="w-full inline-flex justify-between h-[83%] max-[1100px]:h-[208px] max-[600px]:overflow-hidden">
           <div className="card flex flex-col justify-around items-center w-[47%] h-full bg-gradient-to-r from-blue-600 to-blue-700 rounded-[20px]">
             <div className="first h-[51px] w-[80%] inline-flex justify-between items-center">
               <div className="flex flex-col text-white text-[20px]">
