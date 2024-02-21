@@ -64,7 +64,7 @@ export default function MyCard() {
               ></Image>
             </div>
           </div>
-          <div className="card flex flex-col justify-evenly items-center w-[47%] h-full">
+          <div className="card flex flex-col justify-evenly items-center w-[47%] h-full max-[600px]:hidden">
             <div className="first h-[51px] w-[80%] inline-flex justify-between items-center">
               <div className="flex flex-col text-black text-[20px]">
                 <p className="max-[1100px]:text-[11px]">Balance</p>
